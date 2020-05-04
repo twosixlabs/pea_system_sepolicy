@@ -116,6 +116,10 @@ type persistent_data_block_service, system_api_service, system_server_service, s
 type pinner_service, system_server_service, service_manager_type;
 type power_service, app_api_service, ephemeral_app_api_service, system_server_service, service_manager_type;
 type print_service, app_api_service, ephemeral_app_api_service, system_server_service, service_manager_type;
+type private_data_service, system_api_service, service_manager_type;
+type privacy_notification_manager, system_api_service, service_manager_type;
+type permission_request, system_api_service, service_manager_type;
+type privacy_manager_service, app_api_service, ephemeral_app_api_service, service_manager_type;
 type processinfo_service, system_server_service, service_manager_type;
 type procstats_service, app_api_service, ephemeral_app_api_service, system_server_service, service_manager_type;
 type recovery_service, system_server_service, service_manager_type;

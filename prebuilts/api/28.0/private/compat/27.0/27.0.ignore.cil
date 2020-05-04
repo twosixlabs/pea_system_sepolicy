@@ -55,6 +55,14 @@
     hal_usb_gadget_hwservice
     hal_vehicle_hwservice
     hal_wifi_hostapd_hwservice
+    hal_imsrcsd_hwservice
+    hal_rcsservice
+    hal_rcsservice_exec
+    hal_rcsservice_tmpfs
+    cnd
+    cnd_exec
+    cnd_tmpfs
+    hal_cne_hwservice
     incident_helper
     incident_helper_exec
     last_boot_reason_prop
@@ -72,6 +80,10 @@
     perfetto_tmpfs
     perfetto_traces_data_file
     perfprofd_service
+    permission_request
+    private_data_service
+    privacy_notification_manager
+    privacy_manager_service
     property_info
     secure_element
     secure_element_device
